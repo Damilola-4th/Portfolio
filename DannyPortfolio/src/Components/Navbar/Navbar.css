@@ -11,16 +11,26 @@
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
     
+    
 }
+
+.Logo {
+    height: 50px;
+    weight: 50px;
+
+}
+
 .nav-links {
     list-style: none;
   
     
     margin-right: auto;
-    padding: 0px;
+    /* top | right | bottom | left */
+    padding: 10px 0px 0px 0px;
+
     
     
     
@@ -41,4 +51,6 @@
 
 #Contact {
     margin-right: 20px;
+    /* top | right | bottom | left */
+    padding: 10px 0px 0px 0px;
 }
