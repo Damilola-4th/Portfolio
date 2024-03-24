@@ -23,12 +23,22 @@ import Github from './TechSkills/Github.png'
 import Heroku from './TechSkills/Heroku.png'
 import GoogleCloud from './TechSkills/GoogleCloud.jpg'
 import Node from './TechSkills/Node.png'
+import Figma from './TechSkills/Figma.png'
 
+import DanielPicture from './DanielPicture.png'
+
+import BackEndDeveloper from "./Services/BackEndDeveloper.png"
+import MobileDeveloper from "./Services/MobileDeveloper.png"
+import WebDeveloper from "./Services/WebDeveloper.png"
+import Barber from './Services/Barber.png'
 
 export {
+    //Logo
     logo,
+    //Companies
     Salesforce,
     Google,
+    //Skills
     Javascript,
     Flask,
     HTML,
@@ -43,11 +53,17 @@ export {
     Heroku,
     GoogleCloud,
     Node,
+    Figma,
+    //Interest
     Cooking,
     Reading,
     Pianist,
     TablesTennis,
-    Fitness
-
-
-}
+    Fitness,
+    DanielPicture,
+    //Services
+    MobileDeveloper,
+    BackEndDeveloper,
+    WebDeveloper,
+    Barber
+};

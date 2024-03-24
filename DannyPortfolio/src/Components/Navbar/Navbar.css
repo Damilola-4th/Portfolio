@@ -4,8 +4,9 @@
     margin: 0px;
 }
 .navbar {
+    
     display: flex;
-    background-color: #8F5F3D;
+    background-color: #613928;
     color:rgb(245, 253, 253);
     justify-content: center;
     font-family: "Lato", sans-serif;
@@ -13,15 +14,40 @@
     font-style: normal;
     padding-top: 10px;
     padding-bottom: 10px;
+    flex-grow: 1;
     
     
 }
+
+.navbar-sticky {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    background-color: #613928;
+    color:rgb(245, 253, 253);
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 .Logo {
     height: 50px;
     weight: 50px;
 
 }
+
+/* Sticky Class Designed to provide Sticky Property to the Navbar using JavaScript */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 .nav-links {
     list-style: none;
@@ -39,18 +65,90 @@
 .Logo {
     margin-right: auto;
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 
 
 .nav-links li {
     display: inline-block;
+    
     padding: 0px 30px;
 }
 
+.nav-links li {
+    padding-bottom: 10px;
+}
+
+.NavLinks {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links  li,
+.nav-links  li:after,
+.nav-links  li:before {
+    transition: all .5s;
+    }
+.nav-links li:hover {
+        color:#cdf7ff;  /*  00CED1  lightblue: #cdf7ff */
+        cursor: pointer;
+      }
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.nav-links li:hover:after{
+    width: 100%;
+}
+
+/* .nav-links li:hover{
+    color: aqua;
+    transition: color 2s;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    cursor: pointer;
+
+} */
+
+
 #Contact {
+    margin-top: 5px;
     margin-right: 20px;
     /* top | right | bottom | left */
-    padding: 10px 0px 0px 0px;
+    padding: 8px 10px 10px 10px;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    height: 40px;
+    width: 100px;
+    background-color: #1c232c;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    
+    
 }
+
+#Contact:hover {
+    color: white;
+    background-color: black;
+}
+
