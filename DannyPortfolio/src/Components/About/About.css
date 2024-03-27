@@ -8,15 +8,17 @@
     font-weight: 700;
     font-style: normal;
     
-    margin: 80px 0px 80px 0px ;
+    margin: 0px 0px 0px 0px ;
     background-color:#d6f1f7    ;
     color:#2d3847 ;
-    height: 100vh;
+
     
     
 }
 
 .About-Main-Content{
+    margin-top: 80px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -109,4 +111,161 @@
 
 #DanielPictureAbout{
     border-radius: 50px 50px 40px 40px;
+}
+
+#MorganStateLogo {
+    max-width: 65px;
+
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 16px; 
+    cursor: pointer;
+    transition: transform 1s
+    
+}
+
+#MorganStateLogoHover {
+    
+    max-width: 65px;
+
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 16px; 
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 1s ease;;
+    
+    
+
+
+}
+
+#Chef{
+    max-width: 65px;
+    margin-top: auto; 
+    margin-bottom: 50px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    
+    transition: transform 1s
+} 
+
+#Chef-Hover{
+    max-width: 65px;
+    margin-top: auto; 
+    margin-bottom: 50px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 1s ease;
+    transform: scale(1.2);
+} 
+
+#Music{
+    max-Width: 65px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    padding: 5px;  
+    cursor: pointer; 
+    transition: transform 1s;
+}
+
+#Music-Hover{
+    max-Width: 65px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    padding: 5px;  
+    cursor: pointer; 
+    transition: transform 1s ease;
+    transform: scale(1.2);
+} 
+
+#Lifting {
+    max-width: 65px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: "pointer";
+    transition: transform 1s;
+}
+
+#Lifting-Hover{
+    max-width: 65px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: "pointer";
+    transition: transform 1s ease;
+    transform: scale(1.2);
+}
+
+#Reading {
+    max-width: 65px;
+    padding-top: 20px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; 
+    padding: 5px;
+    cursor:pointer;
+    transition: transform 1s;
+}
+
+#Reading-Hover{
+    max-width: 65px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: "pointer";
+    transition: transform 1s ease;
+    transform: scale(1.2);
+}
+
+#Programming{
+    max-width: 65px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+#Programming-Hover{
+    max-width: 65px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 1s;
+    transform: scale(1.2);
+}
+
+#About-Connect-Button{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 200px;
+    font-size: 23px;
+    border: none;
+    /* top | right | bottom | left */
+    padding: 18px 0px 18px 0px;
+    margin-top: 40px; 
+    background-color: #c8d194;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#About-Connect-Button:hover{ 
+    background-image: linear-gradient(to right, #286879, #c8d194);
+        /* For Safari and older versions of Chrome */
+       
+        color: rgb(255, 255, 255);
+        
+        
+    background-color: #e1b8cd;
 }

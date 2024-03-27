@@ -65,19 +65,19 @@ export const navlinks = [
 const services = [
     {
         title: "Web Developer",
-        icon: WebDeveloper
+        icon: WebDeveloper,
+        description: "A junior web developer, with Industry best practices implemented on multiple projects. Building out Personal Brands, Reliable Websites, and Modern-Designs. Constantly looking to gain new skills/experience"
     },
-    {
-        title: "React Native Developer",
-        icon: MobileDeveloper
-    },
+
     {
         title: "Backend Developer",
-        icon: BackEndDeveloper
+        icon: BackEndDeveloper,
+        description: "With aspiriations on becoming a amazing Full-Stack Developer. I am Constantly looking to grow and learn new backend Technology/skills. Leveraging Experience in Data-Base Management, Cloud Service, Testing, and Backend Centric Programming Language to develop Tested and Functional features for Real-Word Applications"
     },
     {
         title: "Barber",
-        icon: Barber
+        icon: Barber,
+        description: "Started as a Hobby of mine, I currently enjoy cutting Hair and helping people look their best. with over 2 years of experience now cutting hair, I aim to help people be confident in their style, Get the best Hair cut for their Wallet, and create a comfortable space for hair-cut (The Most Memorable hair Cuts Often Happen When your Comfortable :) )."
     }
 
 ]
@@ -145,7 +145,7 @@ const technologies = [
     }
 ]
 
-const Experience = [
+const experience = [
     {
         title: "Google Techx Scholar",
         Company: "Google",
@@ -162,7 +162,7 @@ const Experience = [
         Company: "Salesforce",
         icon: Salesforce,
         date: "June 5, 2023 - August 11, 2023",
-        point: [
+        points: [
             "Developed Full Stack applications ",
             "Built a micro-service architecture to facilitate data flow",
             "Utilized Amazon web services to store and access user's information.",
@@ -172,11 +172,18 @@ const Experience = [
     }
 ]
 
-const Interest = [
+const interest = [
     {
-        name: "Cooking"
-    }
+        name: "Cooking",
+    },
     {
         
     }
 ]
+
+export  {
+    services,
+    technologies,
+    experience,
+
+}

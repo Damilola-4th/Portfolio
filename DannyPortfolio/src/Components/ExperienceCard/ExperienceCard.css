@@ -1,0 +1,47 @@
+.ExperienceCard-RightContainer{
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.ExperienceCard-LeftContainer{
+    display: flex;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+
+.ExperienceCard .ExperienceCard-Content-RightContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+  
+}
+
+.ExperienceCard-Content-LeftContainer {
+    margin-right: auto;
+    display: inline-block;
+
+}
+
+
+#TimeLine-line {
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    background-color: white;
+    height: 100%;
+
+}
+
+
+.Company-Image-Container {
+    position: absolute;
+    padding: 40px;
+    left: 44%;
+    background-color: white;
+    border-radius: 50%;
+    justify-self: center;
+}

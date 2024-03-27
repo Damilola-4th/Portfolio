@@ -3,6 +3,7 @@ html,body {
   display: flex;
   flex-direction: column;
   background-color: #1c232c;
+  height: 100vh;
 
 
 }

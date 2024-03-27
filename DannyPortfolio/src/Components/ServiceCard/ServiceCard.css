@@ -1,0 +1,19 @@
+.ServiceCard{
+    display: flex;
+    flex-direction: row;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 0, 0) ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1.2px solid #2d3847 ;
+}
+
+.ServiceCard-Image-Container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-left: 80px;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import  DanielPicture  from '../../assets/DanielPicture.png'
 import Linkedin from '../../assets/Linkedin.png'
-import { Github } from '../../assets/Index'
+import { Github } from '../../assets'
 // import {GoogleCloud} from '../../assets'
 const Hero = () => {
   return (

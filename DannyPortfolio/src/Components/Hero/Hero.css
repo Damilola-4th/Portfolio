@@ -12,8 +12,8 @@
     color: white;
     overflow: hidden;
    
-    overflow-y: scroll;
-    height: 100vh
+
+    height: 100%
     
     
 }
@@ -70,22 +70,26 @@
 }
 
 .Hero-Image {
-    margin-left: auto;
-    display: flex;
-    width: 50%;
-    
+ 
+
+   
+    margin-top: 60px;
     height: 100%;
     padding-top: 100px;
-    margin-right: 50px;
+    margin-right: 120px;
+    margin-left: auto;
+ 
+
 }
 
 
 #Hero-Profile-Picture{
-    max-width: 700px;
+    
+    max-width: 580px;
     margin-left: auto;
     
-    margin-right: 50px;
-    border-radius: 700px 700px 0px 0px;
+
+    border-radius: 300px 300px 0px 0px;
 
 }
 
@@ -99,7 +103,7 @@
 
 .Hero-Socials {
     margin-top: auto;
-    margin-bottom: 95px;
+    margin-bottom: 140px;
     margin-left: 100px;
    
     
