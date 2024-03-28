@@ -29,8 +29,8 @@ const ExperienceCard = ( props ) => {
         <div id='TimeLine-line' >
 
         </div> 
-        <div className='Company-Image-Container' >  
-            <img src={props.experience.icon} style={ { maxWidth: '100px'  } } />
+        <div className={  props.experience.Company == 'Google' ?  ' Google-Image-Container': 'Company-Image-Container'   } >  
+            <img src={props.experience.icon} style={ { maxWidth: '100px'  }  } />
         </div>
         
  

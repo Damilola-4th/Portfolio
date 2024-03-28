@@ -31,7 +31,10 @@ import {
     MobileDeveloper,
     BackEndDeveloper,
     WebDeveloper,
-    Barber
+    Barber,
+    //Projects
+    HoyaHacks_AiHelper,
+    Danny_Portfolio
 } from "../assets"
 
 
@@ -166,24 +169,44 @@ const experience = [
             "Developed Full Stack applications ",
             "Built a micro-service architecture to facilitate data flow",
             "Utilized Amazon web services to store and access user's information.",
-            "leed a team to build & deploy a web application",
+            "led a team to build & deploy a web application",
             "Optimized user suggestion feeds for a web app by performing natural language processing."
         ]
     }
 ]
 
-const interest = [
-    {
-        name: "Cooking",
+    const interest = [
+        {
+            name: "Cooking",
+        },
+        {
+            
+        }
+    ]
+
+    const project = [
+       {
+        title: "HoyaHacks",
+        points: [
+            "Worked on a team of four to design and Build a Full-Stack-application to help HighSchool Students Transfter to College using Machine-Learning and React",
+            "Ultilzized knowledge of HTML, CSS Flexbox, and React to built out a the Frontend Application",
+            "Worked with Azure Cloud api to integrate the Ai Services to the front-End Side of the appplication"
+        ],
+        projectImage: HoyaHacks_AiHelper
     },
     {
-        
+        title:"DannyPortfolio",
+        points: [
+            "Built and designed a portfolio Webiste to help people learning more about me using React and Grow my Person-Brand ",
+            "Utilized Knowledge of HTML, CSS FlexBox, and react to built out the Front-End",
+        ],
+        projectImage: Danny_Portfolio
     }
-]
+    ]
 
 export  {
     services,
     technologies,
     experience,
-
+    project
 }

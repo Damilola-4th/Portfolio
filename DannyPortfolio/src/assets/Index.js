@@ -32,6 +32,9 @@ import MobileDeveloper from "./Services/MobileDeveloper.png"
 import WebDeveloper from "./Services/WebDeveloper.png"
 import Barber from './Services/Barber.png'
 
+import HoyaHacks_AiHelper from './Projects/HoyaHacks_AIHelper.png'
+import Danny_Portfolio from './Projects/Danny_Portfolio.png'
+
 export {
     //Logo
     logo,
@@ -65,5 +68,8 @@ export {
     MobileDeveloper,
     BackEndDeveloper,
     WebDeveloper,
-    Barber
+    Barber,
+    //Projects
+    HoyaHacks_AiHelper,
+    Danny_Portfolio
 };

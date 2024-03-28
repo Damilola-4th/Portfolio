@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.Projects{
+    display: flex;
+    background-color:#d6f1f7    ;
+    padding: 60px 80px 60px 80px;
+    flex-direction: row;
+    align-items: stretch;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: center;
+    
+    
+}
+
+.Project-Card-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    background-color:#f3f3f0 ;
+    color: #1c232c;
+    border-radius: 40px;
+    padding: 80px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.2);
+ 
+}

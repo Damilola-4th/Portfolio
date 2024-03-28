@@ -4,6 +4,7 @@ import Hero from '../Hero/Hero'
 import About from '../About/About'
 import Service from '../Service/Service'
 import Experience from '../Experience/Experience'
+import Projects from '../Projects/Projects'
 const LandingPage = () => {
   return (
     <div  style={{ height: '100%' }}>
@@ -11,7 +12,7 @@ const LandingPage = () => {
         <About />
         <Service />
         <Experience />
-
+        <Projects />
         
     </div>
   )
