@@ -12,26 +12,62 @@
 }
 
 
-.ExperienceCard .ExperienceCard-Content-RightContainer {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    
+.ExperienceCard-Content-RightContainer {
+    background-color: #d6f1f7;
+    color: #1c232c;
+    padding: 40px;
+    border-radius: 16px;
+    border-bottom: 1.2px solid #ffffff 
   
 }
 
 .ExperienceCard-Content-LeftContainer {
     margin-right: auto;
     display: inline-block;
+    border-bottom: 1.2px solid #ffffff;
+    background-color: #d6f1f7;
+    color: #1c232c;
+    padding: 40px;
+    border-radius: 16px;
 
+}
+
+.ExperienceCard-MainContent-Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.RightArrow {
+    width: 0; 
+    height: 0; 
+ 
+    margin-top: 40px;
+    /* top | topright | bottomright | left */
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    order: -1;
+    border-right: 60px solid #d6f1f7;
+}
+
+.LeftArrow {
+    width: 0; 
+    height: 0; 
+  
+    margin-top: 40px;
+    /* top | topright | bottomright | left */
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    
+    border-left: 60px solid #d6f1f7;
 }
 
 
 #TimeLine-line {
     position: absolute;
     left: 50%;
-    width: 2px;
+    width: 7px;
     background-color: white;
+    transform: translate(  -50%);
     height: 100%;
 
 }
@@ -39,9 +75,11 @@
 
 .Company-Image-Container {
     position: absolute;
-    padding: 40px;
-    left: 44%;
+    padding: 18px;
+    transform: translate( -50%,-50%);
     background-color: white;
     border-radius: 50%;
-    justify-self: center;
+    margin-top: 100px;
+    left: 50%;
+    
 }

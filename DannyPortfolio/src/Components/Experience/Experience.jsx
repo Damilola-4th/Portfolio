@@ -8,7 +8,7 @@ const Experience = ( props ) => {
   return (
     <div className='Experience-Container'>
         <div className='Experience-Card-Container' >
-            <h1 style={ { marginBottom:"20px", fontSize: "55px"  } } >Experience</h1>
+            <h1 style={ { marginBottom:"40px", fontSize: "55px", borderBottom:"2px solid white", paddingBottom:"20px", display:"inline-block"} } >Experience</h1>
             {
                 experience.map( ( experience, index ) => (
                     console.log(experience),

@@ -16,6 +16,8 @@
 }
 
 .Experience-Card-Container {
-    padding: 40px;
+    /* top | right | bottom | left */
+    padding: 60px 80px 60px 80px;
     width: 100%;
 }
+
