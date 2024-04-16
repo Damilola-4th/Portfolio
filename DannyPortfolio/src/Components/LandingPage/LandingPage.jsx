@@ -5,6 +5,7 @@ import About from '../About/About'
 import Service from '../Service/Service'
 import Experience from '../Experience/Experience'
 import Projects from '../Projects/Projects'
+import Skills from '../Skills/Skills'
 const LandingPage = () => {
   return (
     <div  style={{ height: '100%' }}>
@@ -13,6 +14,7 @@ const LandingPage = () => {
         <Service />
         <Experience />
         <Projects />
+        <Skills /> 
         
     </div>
   )

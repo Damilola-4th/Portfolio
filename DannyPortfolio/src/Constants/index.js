@@ -34,7 +34,11 @@ import {
     Barber,
     //Projects
     HoyaHacks_AiHelper,
-    Danny_Portfolio
+    Danny_Portfolio, 
+    //Ratings
+    EmptyStar,
+    HalfStar,
+    FullStar
 } from "../assets"
 
 
@@ -62,7 +66,8 @@ export const navlinks = [
     {
         id: "About",
         title: "About"
-    }
+    },
+    
 ]
 
 const services = [
@@ -85,66 +90,81 @@ const services = [
 
 ]
 
-const technologies = [
+const skills = [
     {
         name: "HTML 5",
-        icon: HTML
+        icon: HTML,
+        ratings: 4
     },
     {
         name: "CSS 3",
-        icon: CSS
+        icon: CSS,
+        rating: 3
     },
     {
         name: "JavaScript",
-        icon: Javascript
+        icon: Javascript,
+        rating: 4
     },
     {
         name: "React JS",
-        icon: React
+        icon: React,
+        rating: 4
     },
     {
         name: "Git",
-        icon: Git
+        icon: Git,
+        rating: 3.5
     },
     {
         name: "Github",
-        icon: Github
+        icon: Github,
+        rating: 3.5
     },
     {
         name: "Figma",
-        icon: Figma
+        icon: Figma,
+        rating:2.5
     },
     {
         name: "Flask",
-        icon: Flask
+        icon: Flask,
+        rating: 3
     },
     {
         name: "Python",
-        icon: Python
+        icon: Python,
+        rating: 3.5
     },
     {
         name: "PSQL",
-        icon: PSQL
+        icon: PSQL,
+        rating: 3
     },
     {
         name: "Unity",
-        icon: Unity
+        icon: Unity,
+        rating: 2
     },
     {
         name: "Heroku",
-        icon: Heroku
+        icon: Heroku,
+        rating: 2.5
     },
     {
         name: "GoogleCloud",
-        icon: GoogleCloud
+        icon: GoogleCloud,
+        rating: 3
     },
     {
         name: "Node",
-        icon: Node
+        icon: Node,
+        rating: 3
     },
     {
         name: "Express",
-        icon: Express
+        icon: Express,
+        rating: 3.5
     }
 ]
 
@@ -204,9 +224,17 @@ const experience = [
     }
     ]
 
+    const stars = {
+        FullStar: FullStar,
+        HalfStar: HalfStar,
+        EmptyStar: EmptyStar,
+    }
+
 export  {
     services,
-    technologies,
     experience,
-    project
+    project,
+    skills,
+    stars
+    
 }

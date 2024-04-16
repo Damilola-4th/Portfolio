@@ -35,6 +35,10 @@ import Barber from './Services/Barber.png'
 import HoyaHacks_AiHelper from './Projects/HoyaHacks_AIHelper.png'
 import Danny_Portfolio from './Projects/Danny_Portfolio.png'
 
+import EmptyStar from './Ratings/EmptyStar.png'
+import HalfStar from './Ratings/HalfStar.png'
+import FullStar from './Ratings/FullStar.png'
+
 export {
     //Logo
     logo,
@@ -71,5 +75,9 @@ export {
     Barber,
     //Projects
     HoyaHacks_AiHelper,
-    Danny_Portfolio
+    Danny_Portfolio,
+    //Ratings
+    EmptyStar,
+    HalfStar,
+    FullStar
 };

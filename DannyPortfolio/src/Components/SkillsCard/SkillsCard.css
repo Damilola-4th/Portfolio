@@ -1,0 +1,19 @@
+.Skillcard{
+    display: flex;
+    margin-top: 10px
+    
+}
+
+
+.Skillcard-Content {
+    display: flex;
+    
+    
+} 
+
+.Skillcard-Content img{
+    flex: 1;
+    width: auto;
+    height: auto;
+    
+}

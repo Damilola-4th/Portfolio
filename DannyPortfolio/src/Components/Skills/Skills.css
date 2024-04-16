@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.Skills{
+    display: flex;
+    background-color:#d6f1f7;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Skills-Content-Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 60px 80px 60px 80px;
+    color: #1c232c;
+    
+}
+
+.Header-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Skills-Content {
+    padding:50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
