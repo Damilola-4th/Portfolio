@@ -39,7 +39,10 @@ import {
     EmptyStar,
     HalfStar,
     FullStar
-} from "../assets"
+} from '../Assets'
+
+
+
 
 
 export const navlinks = [
