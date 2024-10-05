@@ -13,7 +13,7 @@ const Skills = () => {
         <div className='Skills-Content'>
           {
             skills.map(( skill, index ) =>  (
-              <SkillsCard key = { index } skill = { skill } />
+              <SkillsCard key = { index } skill = { skill } index = { index } />
             ))
           }
         </div>

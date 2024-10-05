@@ -94,7 +94,7 @@ const skills = [
     {
         name: "HTML 5",
         icon: HTML,
-        ratings: 4
+        ratings: 3.5
     },
     {
         name: "CSS 3",
@@ -104,7 +104,7 @@ const skills = [
     {
         name: "JavaScript",
         icon: Javascript,
-        rating: 4
+        rating: 3.5
     },
     {
         name: "React JS",

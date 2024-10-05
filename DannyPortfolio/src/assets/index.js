@@ -21,7 +21,7 @@ import Unity from './TechSkills/Unity.png'
 import Git from './TechSkills/Git.png'
 import Github from './TechSkills/Github.png'
 import Heroku from './TechSkills/Heroku.png'
-import GoogleCloud from './TechSkills/GoogleCloud.jpg'
+import GoogleCloud from './TechSkills/GoogleCloud.png'
 import Node from './TechSkills/Node.png'
 import Figma from './TechSkills/Figma.png'
 

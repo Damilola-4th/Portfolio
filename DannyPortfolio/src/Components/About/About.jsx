@@ -1,3 +1,4 @@
+import React from 'react';
 import './About.css'
 import CookingMan from '../../assets/CookingMan.png'
 import Music from '../../assets/Music.png'
